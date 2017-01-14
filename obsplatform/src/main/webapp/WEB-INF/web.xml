@@ -11,11 +11,11 @@
   id="mifosng-platform-provider" version="2.5">
 
 	<display-name>Mifos Platform</display-name>
-	<description>A provider of microfinance services which applications can consume once authenticated and authorized.</description>
+	<description>A provider of billing services which applications can consume once authenticated and authorized.</description>
 
 	<context-param>
 	    <param-name>webAppRootKey</param-name>
-	    <param-value>mifosplatform.root</param-value>
+	    <param-value>obsplatform.root</param-value>
     </context-param>
 
 	<context-param>
@@ -59,7 +59,7 @@
 		
 		<init-param>
 		  <param-name>com.sun.jersey.spi.container.ContainerResponseFilters</param-name>
-		  <param-value>org.mifosplatform.infrastructure.core.filters.ResponseCorsFilter</param-value>
+		  <param-value>org.obsplatform.infrastructure.core.filters.ResponseCorsFilter</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
