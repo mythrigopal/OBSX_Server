@@ -21,7 +21,7 @@ public class OfficeAddress extends AbstractPersistable<Long> {
 
 	/**
 		 * 
-		 */
+	 */
 	private static final long serialVersionUID = 1L;
 
 	@Column(name = "address_name")
