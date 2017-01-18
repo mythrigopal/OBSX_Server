@@ -38,7 +38,7 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
 @Table(name = "m_office", uniqueConstraints = { @UniqueConstraint(columnNames = { "name" }, name = "name_org"),
         @UniqueConstraint(columnNames = { "external_id" }, name = "externalid_org") })
 public class Office extends AbstractPersistable<Long> {
-
+	
     /**
 	 * 
 	 */
